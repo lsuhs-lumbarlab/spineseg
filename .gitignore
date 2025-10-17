@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.conda/
+*.egg-info/
+
+# Data files (don't commit large datasets)
+data/raw/
+data/processed/
+*.nii.gz
+*.nii
+*.dcm
+
+# Model checkpoints (too large for git)
+models/*.pth
+models/*.pt
+*.pth
+*.pt
+
+# Outputs
+outputs/
+*.png
+*.jpg
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
